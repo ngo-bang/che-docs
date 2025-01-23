@@ -56,3 +56,6 @@ chectl server:deploy --platform minikube
 9. OAuth2 proxy trả kq cho Che server, Che server trả kq cho Dashboard
 10. Dashboard gọi đến Che server để provision namespace cho user
 ![alt text](image.png)
+### 4. TODO
+- oidc - k8s rbac - authen k8s
+- Luồng authen = oidc của apiserver k8s
